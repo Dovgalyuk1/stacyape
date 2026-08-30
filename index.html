@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>$STACYAPE — She Doesn't Watch The Charts. He Does.</title>
+<meta name="description" content="STACYAPE stays composed. The monkey on her shoulder does not. $STACYAPE.">
+<link rel="icon" href="assets/mascot.jpg">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- NAV -->
+<nav class="topbar">
+  <div class="logo">STACY<span>APE</span></div>
+  <div class="ca-pill" id="ca-pill">
+    <span class="ca-label">CA</span>
+    <span class="ca-value" id="ca-value">TBA — posted at launch</span>
+    <button id="ca-copy" aria-label="Copy contract address">⧉</button>
+  </div>
+  <div class="nav-links">
+    <a href="#buy" class="btn btn-ghost">Buy</a>
+    <a href="#" class="btn btn-ghost" id="link-x" target="_blank" rel="noopener">X</a>
+    <a href="#" class="btn btn-ghost" id="link-chart" target="_blank" rel="noopener">Chart</a>
+  </div>
+</nav>
+
+<!-- HERO -->
+<header class="hero">
+  <div class="hero-portrait-wrap">
+    <div class="portrait-clip">
+      <div class="portrait-glow"></div>
+      <img src="assets/mascot.jpg" alt="STACYAPE" class="hero-portrait">
+    </div>
+    <span class="phone-badge"><span class="dot"></span> checking chart<span class="dots"><span>.</span><span>.</span><span>.</span></span></span>
+  </div>
+
+  <h1 class="hero-title">STACY<span>APE</span></h1>
+  <p class="hero-tagline">SHE STAYS COMPOSED. HE APES EVERYTHING.</p>
+  <p class="hero-sub">One face for the camera. One hand on the phone, refreshing a chart that hasn't moved in four minutes. Somehow this is the whole strategy.</p>
+
+  <div class="hero-buttons">
+    <a href="#buy" class="btn btn-primary">Buy $STACYAPE</a>
+    <a href="#" class="btn btn-secondary" id="link-x-2" target="_blank" rel="noopener">Follow on X</a>
+    <a href="#" class="btn btn-secondary" id="link-chart-2" target="_blank" rel="noopener">View Chart</a>
+  </div>
+</header>
+
+<!-- THE MONKEY'S FEED -->
+<section class="section feed" id="feed">
+  <h2 class="section-title">THE MONKEY'S FEED</h2>
+  <p class="section-kicker">Notifications from a phone that never sleeps. Locked screen. Unlocked mind.</p>
+
+  <div class="feed-window">
+    <div class="feed-track" id="feed-track">
+      <!-- items duplicated via JS for seamless loop -->
+      <div class="feed-item"><span class="feed-icon">🐵</span><span class="feed-text">Aped in. All of it.</span></div>
+      <div class="feed-item"><span class="feed-icon">📉</span><span class="feed-text">Down 40%. Still holding.</span></div>
+      <div class="feed-item"><span class="feed-icon">🔄</span><span class="feed-text">Refreshed the chart again</span></div>
+      <div class="feed-item"><span class="feed-icon">🐵</span><span class="feed-text">Sold the exact bottom</span></div>
+      <div class="feed-item"><span class="feed-icon">🚀</span><span class="feed-text">Bought the top. Again.</span></div>
+      <div class="feed-item"><span class="feed-icon">📱</span><span class="feed-text">247 tabs open</span></div>
+      <div class="feed-item"><span class="feed-icon">🐵</span><span class="feed-text">Convinced this is the one</span></div>
+      <div class="feed-item"><span class="feed-icon">💤</span><span class="feed-text">She is asleep. He is not.</span></div>
+      <div class="feed-item"><span class="feed-icon">🔋</span><span class="feed-text">Battery at 6%. Still refreshing.</span></div>
+      <div class="feed-item"><span class="feed-icon">🐵</span><span class="feed-text">Moved the whole bag on a feeling</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- VITALS -->
+<section class="section vitals" id="vitals">
+  <h2 class="section-title">VITALS</h2>
+  <p class="section-kicker">Two readings from one photo. Only one of them is calm.</p>
+
+  <div class="vitals-grid">
+    <div class="vitals-col">
+      <h3 class="vitals-name">HER</h3>
+      <div class="stat-row" data-value="100">
+        <span class="stat-name">Composure</span>
+        <div class="stat-bar"><div class="stat-fill"></div></div>
+        <span class="stat-num">100%</span>
+      </div>
+      <div class="stat-row" data-value="0">
+        <span class="stat-name">Words Said About Price</span>
+        <div class="stat-bar"><div class="stat-fill"></div></div>
+        <span class="stat-num">0%</span>
+      </div>
+      <div class="stat-row" data-value="8">
+        <span class="stat-name">Hours Slept</span>
+        <div class="stat-bar"><div class="stat-fill"></div></div>
+        <span class="stat-num">8</span>
+      </div>
+      <div class="stat-row" data-value="4">
+        <span class="stat-name">Tabs Open</span>
+        <div class="stat-bar"><div class="stat-fill"></div></div>
+        <span class="stat-num">1</span>
+      </div>
+    </div>
+    <div class="vitals-col">
+      <h3 class="vitals-name">THE MONKEY</h3>
+      <div class="stat-row" data-value="4">
+        <span class="stat-name">Composure</span>
+        <div class="stat-bar"><div class="stat-fill"></div></div>
+        <span class="stat-num">4%</span>
+      </div>
+      <div class="stat-row" data-value="100">
+        <span class="stat-name">Words Said About Price</span>
+        <div class="stat-bar"><div class="stat-fill"></div></div>
+        <span class="stat-num">all of them</span>
+      </div>
+      <div class="stat-row" data-value="0">
+        <span class="stat-name">Hours Slept</span>
+        <div class="stat-bar"><div class="stat-fill"></div></div>
+        <span class="stat-num">0</span>
+      </div>
+      <div class="stat-row" data-value="100">
+        <span class="stat-name">Tabs Open</span>
+        <div class="stat-bar"><div class="stat-fill"></div></div>
+        <span class="stat-num">247</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="mog-score">
+    <span class="mog-label">CHART REFRESHES TODAY</span>
+    <span class="mog-value" id="mog-counter">0</span>
+    <span class="mog-unit">and it is only 9 a.m. where he is</span>
+  </div>
+</section>
+
+<!-- THE ARRANGEMENT -->
+<section class="section arrangement" id="lore">
+  <h2 class="section-title">THE ARRANGEMENT</h2>
+  <p class="section-kicker">Nobody signed anything. It works anyway.</p>
+
+  <div class="log-entries">
+    <div class="log-entry">
+      <span class="log-date">THE SETUP</span>
+      <p>She poses for the panel. He rides the shoulder, thumb already moving before the shutter clicks.</p>
+    </div>
+    <div class="log-entry">
+      <span class="log-date">THE DIVISION OF LABOR</span>
+      <p>She provides the composure. He provides the confidence. Neither one is optional, and neither one checks with the other first.</p>
+    </div>
+    <div class="log-entry">
+      <span class="log-date">THE OUTCOME</span>
+      <p>Nobody has explained to him that closing the app doesn't close the position. Nobody is planning to.</p>
+    </div>
+  </div>
+</section>
+
+<!-- SCREEN TIME -->
+<section class="section gallery" id="gallery">
+  <h2 class="section-title">SCREEN TIME</h2>
+  <p class="section-kicker">Four different recordings of the same night. He was awake for all of them.</p>
+
+  <div class="plate-grid">
+    <figure class="plate plate-studio">
+      <img src="assets/mascot.jpg" alt="STACYAPE, studio">
+      <figcaption>FRONT CAMERA</figcaption>
+    </figure>
+    <figure class="plate plate-thermal">
+      <img src="assets/mascot.jpg" alt="STACYAPE, thermal">
+      <figcaption>NIGHT MODE</figcaption>
+    </figure>
+    <figure class="plate plate-negative">
+      <img src="assets/mascot.jpg" alt="STACYAPE, negative">
+      <figcaption>SCREEN RECORD</figcaption>
+    </figure>
+    <figure class="plate plate-chrome">
+      <img src="assets/mascot.jpg" alt="STACYAPE, chrome">
+      <figcaption>LOW BATTERY</figcaption>
+    </figure>
+  </div>
+</section>
+
+<!-- HOW TO STACK -->
+<section class="section howto" id="buy">
+  <h2 class="section-title">HOW TO STACK</h2>
+  <div class="howto-grid">
+    <div class="howto-step">
+      <span class="howto-num">01</span>
+      <h3>Get a Solana wallet</h3>
+      <p>Phantom or Solflare. Fund it with SOL from any exchange.</p>
+    </div>
+    <div class="howto-step">
+      <span class="howto-num">02</span>
+      <h3>Paste the CA</h3>
+      <p>Copy the contract address above and paste it into your DEX of choice. Never trust a link — only the CA on this page and our official socials.</p>
+    </div>
+    <div class="howto-step">
+      <span class="howto-num">03</span>
+      <h3>Swap and hold</h3>
+      <p>Swap SOL for $STACYAPE. He'll check the chart so you don't have to.</p>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="footer">
+  <div class="footer-top">
+    <div class="logo">STACY<span>APE</span></div>
+    <div class="footer-links">
+      <a href="#" id="link-x-3" target="_blank" rel="noopener">X / Twitter</a>
+      <a href="#" id="link-tg" target="_blank" rel="noopener">Telegram</a>
+      <a href="#" id="link-chart-3" target="_blank" rel="noopener">Chart</a>
+    </div>
+  </div>
+  <p class="disclaimer">He has 247 tabs open. All of them are the same chart.</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
